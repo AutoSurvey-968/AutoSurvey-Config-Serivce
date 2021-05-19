@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AutoSurvey-968/AutoSurveys-configs
+          username: ${GITHUB_USERNAME}
+          password: ${GITHUB_PASSWORD}
+          skipSslValidation: true
+          default-label: main
