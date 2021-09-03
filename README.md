@@ -4,5 +4,5 @@
 
 ## Getting Started
 Set Environmental Variables
- * Github Username -
- * Github Password -
+ * GITHUB_USERNAME - developer's github username
+ * GITHUB_PASSWORD
